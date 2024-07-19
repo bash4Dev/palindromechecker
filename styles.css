@@ -1,0 +1,89 @@
+:root {
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: var(--white);
+    background-color: rgb(73, 20, 73);
+    overflow: hidden;
+}
+
+header h1 {
+    margin: 15px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+main {
+    width: 40%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .palindrome-def {
+    /* width: 40%; */
+    color: #000;
+    background-color:  var(--white);
+    padding: 1.2rem;
+    /* margin: 2rem auto 0 auto; */
+    border-radius: 13px;
+}
+
+.palindrome-def img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.palindrome-def p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 13px;
+    padding: 20px;
+    /* margin: 2rem auto 0 auto; */
+    background-color:  rgba(255, 255, 255, 34%);
+}
+
+fieldset label {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+fieldset #text-input {
+    width: 50%;
+    padding: 0.8rem;
+    border: none;
+    border-bottom: 2px solid #58056b;
+    background: none;
+    margin: 10px;
+    opacity: 0.6;
+}
+
+fieldset p {
+    text-align: center;
+    font-size: 18px;
+    margin: 2rem 0;
+}
