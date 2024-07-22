@@ -3,10 +3,10 @@ const checkBtn = document.getElementById("check-btn");
 const resultMsg = document.getElementById("result");
 // const inputValue = document.getElementById("text-input").value;
 
-function checkPalindrome(check) {
-    const cleaned = check.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-    const reversed = cleaned.split('').reverse().join('');
-    return cleaned === reversed;
+function checkPalindrome(test) {
+    const checked = test.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    const reverse = checked.split('').reverse().join('');
+    return checked === reverse;
 }
 
 function simpleCheck() {
