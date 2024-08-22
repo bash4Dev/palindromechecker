@@ -51,6 +51,6 @@ __Note:__ You'll need to remove all __non-alphanumeric__ characters (punctuation
 
 This project includes a challenge completed as part of FreeCodeCamp's required projects to earn certification in JavaScript Algorithms and Data Structures.:
 
-- **Challenge:** [Palindrome Checker Project]
+- **Challenge:** [Palindrome Checker Project](https://bash4dev.github.io/palindromechecker/)
 
-Thank you to FreeCodeCamp for providing the resources to build this project!
+Thank you to [freeCodeCamp](https://www.freecodecamp.org) for providing the resources to build this project!
