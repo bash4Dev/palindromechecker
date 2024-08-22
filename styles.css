@@ -11,78 +11,109 @@
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     color: var(--white);
     background-color: rgb(73, 20, 73);
-    overflow: hidden;
 }
 
 header h1 {
-    margin: 15px;
     text-align: center;
     color: var(--white);
-    margin-bottom: 1rem;
 }
 
-main, header {
-    width: 40%;
-    margin: 1rem auto;
+main {
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
+.palindrome-def, #check-div {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem 0;
+    border-radius: 13px;
+}
+
 main .palindrome-def {
     background-color:  rgba(255, 255, 255, 34%);
-    padding: 1.2rem;
-    border-radius: 13px;
 }
 
 .palindrome-def p {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    padding: 15px;
     letter-spacing: 1px;
     opacity: 0.8;
 }
 
-fieldset {
-    border: none;
-    border-radius: 13px;
-    padding: 20px;
-    font-size: 18px;
+#check-div { 
+    font-size: 20px;
+    font-weight: 300;
     color: #504d4d;
     background-color:  var(--white);
 }
 
-fieldset label {
+#check-div .enter-text {
     display: block;
     text-align: center;
 }
 
-fieldset #text-input {
-    width: 40%;
-    font-size: 16px;
-    padding: 0.5rem;
-    text-align: center;
+#check-div .center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 1rem 0;
+}
+
+#text-input, #check-btn {
+    font-size: 18px;
+    padding: 10px;
     border: none;
+}
+
+#check-div #text-input {
+    width: 40%;
+    text-align: center;
     border-bottom: 2px solid #681964;
-    border-bottom: 2px solid ;
     background: none;
     opacity: 0.6;
 }
 
-fieldset #check-btn {
-    padding: 8px;
-    width: 20%;
-    font-size: 16px;
-    border-radius: 6px;
+#check-div #check-btn {
+    width: 28%;
+    border-radius: 4px;
     background: #469b4b;
     color: var(--white);
 }
 
-fieldset p {
-    text-align: center;
-    font-weight: 600;
-    opacity: 0.8;
+#check-div #result {
+    text-align: center
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 60%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    #check-div { 
+        font-size: 16px;
+    }
+
+    .palindrome-def p {
+        font-size: 16px;
+    }
+
+    #text-input, #check-btn {
+        font-size: 15px;
+    }
 }
