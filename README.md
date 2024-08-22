@@ -45,3 +45,12 @@ __Note:__ You'll need to remove all __non-alphanumeric__ characters (punctuation
 - When the *`#text-input`* element contains an **alphanumeric palindrome**, the *`#result`* element should **correctly identify it as a palindrome**.
 
 - When the *`#text-input`* element contains **a random sequence of alphanumeric characters that is not a palindrome**, the *`#result`* element should say **it is not a palindrome**.
+
+
+## Credits
+
+This project includes a challenge completed as part of FreeCodeCamp's required projects to earn certification in JavaScript Algorithms and Data Structures.:
+
+- **Challenge:** [Palindrome Checker Project]
+
+Thank you to FreeCodeCamp for providing the resources to build this project!
